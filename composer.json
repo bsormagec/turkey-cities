@@ -14,5 +14,12 @@
     "psr-4": {
       "Turkey\\Cities\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Spatie\\Activitylog\\ActivitylogServiceProvider"
+      ]
+    }
   }
 }
